@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.254em;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    position: absolute;
+    width: 1440px;
+    height: 213px;
+    left: 0px;
+    top: 0px;
+    background: #C4C4C4;
+}
+
+#anh1 {
+    position: absolute;
+    width: 267px;
+    height: 352px;
+    left: 0px;
+    top: 213px;
+    background: #3D1D1D;
+
+}
+
+#thongtintai {
+    position: absolute;
+    width: 453px;
+    height: 352px;
+    left: 267px;
+    top: 213px;
+
+    background: #6D4E4E;
+}
+
+#anh2 {
+    position: absolute;
+    width: 268px;
+    height: 352px;
+    left: 720px;
+    top: 213px;
+}
+
+#thongtinsy {
+    position: absolute;
+    width: 454px;
+    height: 352px;
+    left: 991px;
+    top: 213px;
+
+    background: #6D4E4E;
+}
+
+#anh3 {
+    position: absolute;
+    width: 267px;
+    height: 350px;
+    left: 0px;
+    top: 567px;
+}
+
+#thongtinviet {
+    position: absolute;
+    width: 455px;
+    height: 350px;
+    left: 265px;
+    top: 565px;
+    background: #6D4E4E;
+}
+
+#anh4 {
+    position: absolute;
+    width: 268px;
+    height: 350px;
+    left: 720px;
+    top: 565px;
+
+}
+
+#thongtintrinh {
+    position: absolute;
+    width: 464px;
+    height: 350px;
+    left: 978px;
+    top: 565px;
+
+    background: #6D4E4E;
+}
+
+#footer {
+    text-align: center;
+    position: absolute;
+    width: 1440px;
+    height: 109px;
+    left: 0px;
+    top: 915px;
+
+    background: #C4C4C4;
+}
