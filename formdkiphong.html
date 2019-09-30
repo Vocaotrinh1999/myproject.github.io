@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Đăng ký phòng</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body style="background-color: lavender">
+
+    <div class="container">
+        <style>
+            #in {
+                position: absolute;
+                width: 930px;
+                height: 672px;
+                left: 217px;
+                top: 0px;
+            }
+
+        </style>
+        <div id="in">
+            <h2 style="text-align: center">Thông tin đăng kí phòng</h2>
+            <form action="/action_page.php">
+                <div class="form-group">
+                    <label for="name">Họ tên người đặt phòng:</label>
+                    <input type="text" class="form-control" id="sdt" name="sdthoai">
+                </div>
+
+                <div class="form-group">
+                    <label for="sdt">Số điện thoại :</label>
+                    <input type="text" class="form-control" id="sdt" name="sdthoai">
+                </div>
+                <div class="form-group">
+                    <label for="cmnd">Số chứng minh :</label>
+                    <input type="text" class="form-control" id="sdt" name="sdthoai">
+                </div>
+                <div class="form-group">
+                    <label for="cmnd">Địa chỉ :</label>
+                    <input type="text" class="form-control" id="sdt" name="sdthoai">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="sel1">Số lượng phòng muốn đặt :</label>
+                    <input type="text" class="form-control" id="sdt" name="sdthoai">
+                </div>
+                <div class="form-group">
+                    <label for="sel1">Loại phòng :</label>
+                    <select class="form-control" id="sel1">
+                        <option>Phòng đơn</option>
+                        <option>Phòng đôi</option>
+                        <option>Phòng hạng sang</option>
+                        <option>Phòng tập thể</option>
+                    </select>
+                </div>
+                <div id="b1">
+                    <button type="submit" class="btn btn-primary">Xác nhận</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
