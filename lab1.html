@@ -1,0 +1,157 @@
+<! DOCTYPE html>
+    <html>
+
+    <head>
+        <title>Lab1</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Thực hành tạo layout bằng HTML và CSS cơ bản" />
+        <meta name="author" content="ThachPham" />
+        <meta name="keyword" content="hoc css,css co ban,css layout" />
+        <link type="text/css" rel="stylesheet" href="css/hotel.css" />
+        <link type="text/css" rel="stylesheet" href="normalize.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <style>
+            #a2 {
+
+                margin-right: 10px;
+
+            }
+
+            #a3 {
+                background-color: darkgrey;
+                padding: 30px;
+            }
+
+            body {}
+
+        </style>
+        <div id="contener">
+            <div id="menu">
+                <ul>
+                    <li><a href="lab1.html">Trang chủ</a></li>
+                    <li><a href="lab1.html">About</a></li>
+                    <li><a>Lab</a></li>
+                    <li><a href="formdkiphong.html" target="_blank">Đặt phòng</a></li>
+                    <li><a href="huyphong.html" target="_blank">Hủy phòng</a></li>
+                    <li><a herf="#">Xem phòng</a></li>
+                    <li><a href="timkiem.html">Tìm phòng</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+
+                </ul>
+            </div>
+            <!--menu-->
+            <div id="content">
+                <div id="header">
+                    <div id="logo"><img width="1100px" height="200px" src="image/logohotel1000.png" /></div>
+                    <!--sologan-->
+                    <div id="sologan">
+                        <h3> Nơi nghỉ dưỡng cao cấp</h3>
+                    </div>
+                    <!--sologan-->
+                </div>
+                <!--header-->
+                <div class="call-to-action">
+                    <h2>Bạn muốn tìm một nơi nghĩ dưỡng ?</h2>
+                    <p>Hãy đến với chúng tôi</p>
+                </div>
+                <!--.call-to-action-->
+                <div class="row">
+                    <div id="box1" class="col">
+                        <h2 style="text-align: center">Phòng đơn</h2>
+                        <img width="550px" height="300px" src="image/room_single.jpg" alt="CSS" />
+                        <p style="margin-left: 30px;">Cảnh biển: 20 phòng, cảnh thành phố: 15 phòng, ban công, máy lạnh, tủ lạnh, điện thoại, ti vi, nước nóng, bồn tắm, máy sấy tóc, két sắt an toàn, Internet Wireless, báo cháy tự động, nước khoáng đóng chai, trà và cà phê. Phù hợp cho người độc thân thích tự do...<a href="#">Xem thêm</a>
+                        </p>
+                    </div>
+                    <div id="box2" class="col" alt="URL">
+                        <h2 style="text-align: center">Phòng đôi</h2>
+                        <img width="550px" height="300px" src="image/room_double.jpg" />
+                        <p>Cảnh thành phố, ban công, phòng khách, máy lạnh, tủ lạnh, điện thoại, ti vi, nước nóng, bồn tắm, máy sấy tóc, két sắt an toàn, Internet Wireless, báo cháy tự động, nước khoáng đóng chai, trà và cà phê. Đặc biệt phù hợp cho các cặp đôi mới cưới...<a href="#">Xem thêm</a></p>
+                    </div>
+
+                    <div id="box3" class="col" alt="HTML">
+                        <h2 style="text-align: center">Phòng hạng sang</h3>
+                            <img width="330px" height="302px" src="image/room_deluxe.jpg" />
+                            <p>Cảnh biển, 2 ban công, phòng khách, máy lạnh, tủ lạnh, điện thoại, ti vi, nước nóng, bồn tắm, máy sấy tóc, két sắt an toàn, Internet Wireless, báo cháy tự động, nước khoáng đóng chai, trà và cà phê. Trải nghiệm các dịch vụ đẳng cấp dành cho người sang trọng...<a href="#">Xem thêm</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="a2">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h2 style="text-align: center">Thông tin đăng kí phòng</h2>
+                        <form action="/action_page.php">
+                            <div class="form-group">
+                                <label for="name">Họ tên người đặt phòng:</label>
+                                <input type="text" class="form-control" id="sdt" name="sdthoai">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="sdt">Số điện thoại :</label>
+                                <input type="text" class="form-control" id="sdt" name="sdthoai">
+                            </div>
+                            <div class="form-group">
+                                <label for="cmnd">Số chứng minh :</label>
+                                <input type="text" class="form-control" id="sdt" name="sdthoai">
+                            </div>
+                            <div class="form-group">
+                                <label for="cmnd">Địa chỉ :</label>
+                                <input type="text" class="form-control" id="sdt" name="sdthoai">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email :</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="sel1">Số lượng phòng muốn đặt :</label>
+                                <input type="text" class="form-control" id="sdt" name="sdthoai">
+                            </div>
+                            <div class="form-group">
+                                <label for="sel1">Loại phòng :</label>
+                                <select class="form-control" id="sel1">
+                                    <option>Phòng đơn</option>
+                                    <option>Phòng đôi</option>
+                                    <option>Phòng hạng sang</option>
+                                    <option>Phòng tập thể</option>
+                                </select>
+                            </div>
+                            <div id="b1">
+                                <button type="submit" class="btn btn-primary">Xác nhận</button>
+                            </div>
+                        </form>
+
+
+                    </div>
+                    <div class="col-lg-8">
+
+                        <img src="image/logohotel.jpg" width="700px" height="700px">
+                    </div>
+
+                    <!--content-->
+
+                    <!--footer-->
+                </div>
+                <!--container-->
+            </div>
+
+        </div>
+        <footer class="py-5 bg-dark" id="a3">
+            <div class="container">
+                <p class="m-0 text-center text-white">Cao Trinh Hotel</p>
+            </div>
+            <!-- /.container -->
+        </footer>
+
+
+    </body>
+
+    </html>
