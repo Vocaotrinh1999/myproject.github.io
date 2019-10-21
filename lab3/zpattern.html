@@ -1,0 +1,170 @@
+<html>
+
+<head>
+    <title>Design lab 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <style>
+        #ht {
+            margin-top: 50px;
+        }
+
+        :root {
+            --input-padding-x: 1.5rem;
+            --input-padding-y: .75rem;
+        }
+
+        body {
+            background: rgba(131, 215, 234, 1);
+
+        }
+
+        .card-signin {
+            border: 0;
+            border-radius: 1rem;
+            box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+        }
+
+        .card-signin .card-title {
+            margin-bottom: 2rem;
+            font-weight: 400;
+            font-size: 1.5rem;
+        }
+
+        .card-signin .card-body {
+            padding: 2rem;
+        }
+
+        .form-signin {
+            width: 100%;
+        }
+
+        .form-signin .btn {
+            font-size: 80%;
+            border-radius: 5rem;
+            letter-spacing: .1rem;
+            font-weight: bold;
+            padding: 1rem;
+            transition: all 0.2s;
+        }
+
+        .form-label-group {
+            position: relative;
+            margin-bottom: 1rem;
+        }
+
+        .form-label-group input {
+            height: auto;
+            border-radius: 3rem;
+            /*tao do cong cho form*/
+        }
+
+        .btn-google {
+            color: white;
+            background-color: #ea4335;
+        }
+
+        .btn-facebook {
+            color: white;
+            background-color: #3b5998;
+        }
+
+        #dn {
+            margin-top: 50px;
+        }
+
+        #pa {
+            margin-top: 30px;
+        }
+
+    </style>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Cao Trinh Hotel</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-success">Login</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" id="ht">
+        <div class="row">
+            <div class="col-lg-8">
+                <div id="dn">
+                    <h1>Đăng nhập để trải nghiệm<br> nhiều hơn</h1>
+                </div>
+                <div id="pa">
+                    <p>Khách sạn Cao Trịnh Thành phố Hồ Chí Minh là khách sạn 5 sao đẳng cấp quốc tế, tọa lạc tại giao điểm của bốn quận chính, nơi được xem như trái tim và trung tâm của Thành phố Hồ Chí Minh. Quý khách chỉ mất 35 phút lái xe từ khách sạn tới sân bay Tân Sơn Nhất, 8 phút để tới khu trung tâm thương mại và giải trí của thành phố. Với 333 phòng tiêu chuẩn và phòng hạng sang thiết kế đẹp mắt và trang nhã được chú trọng tới từng chi tiết sẽ đem lại sự tiện nghi và thoải mái tối đa cho quý khách dù là thời gian nghỉ ngơi thư giãn hay trong chuyến công tác.Khách sạn cũng có các tầng không hút thuốc riêng biệt với 6 địa điểm phục vụ nhu cầu ẩm thực của quý khách, đặc biệt là Nhà hàng Hải sản Orientica & Bar và Quán Café Chit Chat. Cơ sở vật chất hiện đại của phòng họp và phòng hội nghị có sức chứa lên tới 1250 người. Ngoài ra, khách sạn còn có một trung tâm thể thao đẳng cấp thế giới với hồ bơi ngoài trời (quầy bar nổi trên mặt nước), các dịch vụ thể hình, spa và massage.</p>
+                    <p>Khách sạn Cao Trịnh Thành phố Hồ Chí Minh với cơ sở vật chất và dịch vụ đẳng cấp thế giới là sự lựa chọn lý tưởng cho quý khách trong những chuyến công tác và kỳ nghỉ khi ghé thăm thành phố sôi động và nhộn nhịp nhất Việt Nam này.</p>
+                    <h4>Nhiều dịch vụ hấp dẫn đang đợi bạn trải nghiệm và khám phá.</h4>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="card card-signin my-5">
+
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Sign in</h5>
+                                <form class="sign-in">
+                                    <div class="form-label-group">
+                                        <label for="inputEmail">Email address</label>
+                                        <input type="email" id="inputEmail" class="form-control" placeholder="Email adress" required autofocus />
+                                    </div>
+
+                                    <div class="form-label-group">
+                                        <label for="inputPassword">Password</label>
+                                        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                                    </div>
+
+                                    <div class="custom-control custom-checkbox mb-3">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                        <label class="custom-control-label" for="customCheck1">Remember password</label>
+                                    </div>
+
+                                    <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
+                                    <hr class="my-4">
+                                    <!--Tao gach ngang-->
+                                    <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign in with Google</button>
+                                    <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign in with Facebook</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

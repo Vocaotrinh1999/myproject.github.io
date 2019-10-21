@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container mt-3">
+        <h2>Lab 3</h2>
+        <br>
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#home">Requirement</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#menu1">EX1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#menu3">EX2</a>
+            </li>
+
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div id="home" class="container tab-pane active"><br>
+                <div class="container">
+                    <h2>Requiment Table</h2>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>Yêu cầu</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Trong menu Labs, tạo 1 menu Lab3 (file lab3.html) sau đó tạo
+                                    2 tab Ex1, Ex2</td>
+
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><b>Ex1:</b> Thiết kế một trang Web đơn giản sử dụng mẫu F-pattern
+                                    ==> chuyển sang html (ex1.html)<br>
+                                    <b>Ex2:</b> Thiết kế một trang Web sử dụng mẫu Z-pattern ==>
+                                    chuyển sang html (ex2.html)
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Với cả Ex1, Ex2: Tạo 2 tab Design và Implementation:<br>
+                                    <p> Design: chụp lại hình ảnh để có cái nhìn tổng quan về file thiết kế, có
+                                        nút Download để download file thiết kế về nếu muốn
+                                        <p> Implementation: nội dung phần hiện thực trên html</p>
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+                                <td>4</td>
+                                <td>Upload lên Azure / github</td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+            <div id="menu1" class="container tab-pane fade"><br>
+
+                <a href="desginfpattern.html" class="btn btn-info" role="button" target="_blank">Design</a>
+                <a href="fpattern.html" class="btn btn-info" role="button" target="_blank">Implementation</a>
+
+            </div>
+
+            <div id="menu3" class="container tab-pane fade"><br>
+
+                <a href="designzpattern.html" class="btn btn-info" role="button" target="_blank">Design</a>
+                <a href="fpattern.html" class="btn btn-info" role="button" target="_blank">Implementation</a>
+            </div>
+
+
+            <div id="menu2" class="container tab-pane fade"><br>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
